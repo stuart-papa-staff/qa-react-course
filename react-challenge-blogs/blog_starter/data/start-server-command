@@ -1,0 +1,3 @@
+npx json-server --watch data\db.json --port 8000
+
+Make sure you open a new termial to run this command parrallel to npm run dev

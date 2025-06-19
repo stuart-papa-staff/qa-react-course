@@ -1,11 +1,13 @@
+//import { useEffect, useState } from "react";
 import ItemCard from "../components/ItemCard";
-import itemsData from '../itemsData.json';
+//import itemsData from '../itemsData.json';
 
 interface ItemsPageProps {
     itemsData: Array<{id: string; [key: string]: any}>;
 }
 
 const ItemsPage: React.FC<ItemsPageProps> = ({itemsData}) => {
+    
     return (
         <>
         <h1>Our plants</h1>
